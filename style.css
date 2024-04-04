@@ -12,7 +12,7 @@
 }
 
 main{
-    background-color: #160a01;
+    background-color: #1b1b1b;
     overflow: hidden;
 }
 
@@ -21,11 +21,11 @@ main{
 
 nav{
     display: flex;
-    /* position: absolute; */
+    position: sticky;
 
     height: 80px;
 
-    background-color: #160a01;
+    background-color: #1b1b1b;
 }
 
 ul{
@@ -40,13 +40,11 @@ ul{
     
     width: 100%;
     
-    
 }
 
 li a{
-    margin-top: 3%;
     text-decoration: none;
-    color: 	#f1dabe;
+    color: 	#fff1e2;
 
     font-family: League Spartan;
     font-weight: 900;
@@ -61,36 +59,66 @@ li a:hover{
 
 
 /* Styles h1 e foto */
-main{
-    display: flex;
 
-    width: 100%;
-    height: 100%;
-}
-
-.MainInfo{
+section{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
 
-    margin-top: 11%;
-    
+    height: 750px;
+    margin: 10px;
 }
 
-.title{
-    margin-top: 6%;
-    color: #ffefdb;
+section h1{
+    color: #FFF1E2;
 
     font-family: Titillium Web;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 100px    ;
 }
 
-.MainInfo .title span{
-    color: #fdc37d;
+section p{
+    color: #FFF1E2;
+    font-weight: 600;
+    font-size: 20px;
 }
 
-.imgBackFoto{
-    height: 25%;
-    margin-left: 15%;
+section h1 span{
+    color: #B76E2D;
+}
+
+section img{
+    width: 300px;
+    height: 300px;
+}
+
+
+/* Linguagens */
+
+.container{
+    width: 100%;
+    height: 500px;
+
+    margin-top: 50px;
+    padding: 20px;
+
+    background-color: #555151;
+}
+
+.card{
+    width: 300px !important;
+    height: 300px !important;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #9F9689;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+
+    margin-top: -30px;
 }
