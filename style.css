@@ -1,15 +1,48 @@
-:root{
-    /* palheta
-    amarelo
-    preto
-    branco */
-}
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+/* Styles gerais */
 
 *{
     margin: 0;
     padding: 0;
 }
 
+html{
+    background-color: #160a01;
+}
+
+
+
 nav{
-    background-color: ;
+    display: flex;
+
+    height: 80px;
+
+    background-color: #160a01;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+    list-style: none;
+    
+    width: 100%;
+    
+    
+}
+li a{
+    margin-top: 3%;
+    text-decoration: none;
+    color: 	#f1dabe;
+
+    font-family: League Spartan;
+    font-weight: 900;
+    font-size: 20px;
 }
