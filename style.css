@@ -7,16 +7,21 @@
 *{
     margin: 0;
     padding: 0;
+
+    max-width: 1580px;
 }
 
-html{
+main{
     background-color: #160a01;
+    overflow: hidden;
 }
 
 
+/* Styles NavBar */
 
 nav{
     display: flex;
+    /* position: absolute; */
 
     height: 80px;
 
@@ -37,6 +42,7 @@ ul{
     
     
 }
+
 li a{
     margin-top: 3%;
     text-decoration: none;
@@ -44,5 +50,47 @@ li a{
 
     font-family: League Spartan;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+li a:hover{
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em #ffefdb;
+    transition: 0.5s;
+}
+
+
+/* Styles h1 e foto */
+main{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+.MainInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 11%;
+    
+}
+
+.title{
+    margin-top: 6%;
+    color: #ffefdb;
+
+    font-family: Titillium Web;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.MainInfo .title span{
+    color: #fdc37d;
+}
+
+.imgBackFoto{
+    height: 25%;
+    margin-left: 15%;
 }
