@@ -19,24 +19,32 @@
 </head>
 <body>
     <!-- Barra de navegação -->
-    <nav>
+    <nav class="fixed-top">
+
         <ul>
             <!-- sobre mim -->
-            <li><a href="#">Sobre Mim</a></li>
-            
+            <li><a href="#about">Sobre Mim</a></li>
+        
             <!-- Linguagens e API's -->
-            <li><a href="#">Linguagens</a></li>
-
+            <li><a href="#language">Linguagens</a></li>
             <!-- meus projetos -->
-            <li><a href="#">Meus Projetos</a></li>
+            <li><a href="#projetos">Meus Projetos</a></li>
         </ul>
+
 
     </nav>
 
+
+    <!---------------------------------------------------------------->
     <!-- Corpo do Portfolio -->
+
     <main>
 
-        <section>
+
+        <!---------------------------------------------------------------->
+        <!-- Sobre -->
+
+        <section id="about">
             <ul>
                 <li>
                     <h1>
@@ -49,8 +57,16 @@
             </ul>
         </section>
 
+
+        <!---------------------------------------------------------------->
+        <!-- Linguagens -->
+
         <div class="container">
+
+            <!-- titulo -->
+            <h2 id="language">Linguagens</h2>
             
+            <!-- Fileira 1 -->
             <ul>
                 <li>
                     <div class="card">
@@ -72,9 +88,74 @@
                         <h3></h3>
                     </div>
                 </li>
-            </ul>
 
+                <!-- Fileira 2 -->
+
+                <li>
+                    <div class="card">
+                        <img src="src/mysqlLogo.png" alt="Logo da Linguagem de Marcação, CSS">
+                        <h3></h3>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <img src="src/javascriptLogo.png" alt="Logo da Linguagem de Marcação, HTML">
+                        <h3></h3>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <img src="src/cplusplusLogo.png" alt="Logo da Linguagem de Programação, PHP">
+                        <h3></h3>
+                    </div>
+                </li>
+            </ul>
         </div>
+
+
+        <!---------------------------------------------------------------->
+        <!-- Projetos -->
+
+        <section class="">
+            <!-- Projeto 1 -->
+            <div class="projeto">
+                <div class="legenda">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="imagem">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+
+            <!-- Projeto 2 -->
+
+            <div class="projeto">
+                <div class="legenda">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="imagem">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+
+            <!-- Projeto 3 -->
+
+            <div class="projeto">
+                <div class="legenda">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="imagem">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
 
     </main>
     
