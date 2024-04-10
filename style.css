@@ -334,7 +334,7 @@ section img{
     align-items: center;
 
     background: #522B5B;
-    color: #DFB6B2;
+    color: #fff;
 }
 
 .projetos > .row > .description {
@@ -354,11 +354,15 @@ section img{
 }
 
 .description p {
-    color: #DFB6B2;
+    color: #fff;
+
+    line-height: 0.9;
     padding-top: 5px;
 }
 
 .description h4 {
+    margin-top: 30px;
+    color: #FFF;
     text-transform: uppercase;
 }
 
@@ -376,7 +380,9 @@ input:checked + label .description {
 }
 
 .projetos[for="c1"] {
-    background-image: url('ferramentas/apache.png');
+    background-color: #cd2840;
+    background-image: linear-gradient(45deg, #cd2840 0%, #976df2 100%);
+
 }
 .projetos[for="c2"] {
     background-image: url('ferramentas/apache.png');
